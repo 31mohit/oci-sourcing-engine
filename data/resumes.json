@@ -1,0 +1,619 @@
+[
+  {
+    "id": "C001",
+    "name": "Synthetic Candidate 001",
+    "skills": [
+      "AWS",
+      "GitHub Actions",
+      "Grafana"
+    ],
+    "years_experience": 4,
+    "summary": "Synthetic candidate with 4 years of experience specializing in AWS, GitHub Actions, Grafana."
+  },
+  {
+    "id": "C002",
+    "name": "Synthetic Candidate 002",
+    "skills": [
+      "AWS",
+      "Bash",
+      "CI/CD",
+      "PostgreSQL"
+    ],
+    "years_experience": 1,
+    "summary": "Synthetic candidate with 1 years of experience specializing in AWS, Bash, CI/CD, PostgreSQL."
+  },
+  {
+    "id": "C003",
+    "name": "Synthetic Candidate 003",
+    "skills": [
+      "AWS",
+      "Git",
+      "GitHub Actions"
+    ],
+    "years_experience": 9,
+    "summary": "Synthetic candidate with 9 years of experience specializing in AWS, Git, GitHub Actions."
+  },
+  {
+    "id": "C004",
+    "name": "Synthetic Candidate 004",
+    "skills": [
+      "GitHub Actions",
+      "PostgreSQL",
+      "Python",
+      "Terraform"
+    ],
+    "years_experience": 10,
+    "summary": "Synthetic candidate with 10 years of experience specializing in GitHub Actions, PostgreSQL, Python, Terraform."
+  },
+  {
+    "id": "C005",
+    "name": "Synthetic Candidate 005",
+    "skills": [
+      "AWS",
+      "Docker",
+      "FastAPI",
+      "PostgreSQL",
+      "Redis"
+    ],
+    "years_experience": 3,
+    "summary": "Synthetic candidate with 3 years of experience specializing in AWS, Docker, FastAPI, PostgreSQL, Redis."
+  },
+  {
+    "id": "C006",
+    "name": "Synthetic Candidate 006",
+    "skills": [
+      "Bash",
+      "CI/CD",
+      "Git",
+      "Linux"
+    ],
+    "years_experience": 2,
+    "summary": "Synthetic candidate with 2 years of experience specializing in Bash, CI/CD, Git, Linux."
+  },
+  {
+    "id": "C007",
+    "name": "Synthetic Candidate 007",
+    "skills": [
+      "Ansible",
+      "GitHub Actions",
+      "Grafana",
+      "Networking",
+      "Terraform"
+    ],
+    "years_experience": 9,
+    "summary": "Synthetic candidate with 9 years of experience specializing in Ansible, GitHub Actions, Grafana, Networking, Terraform."
+  },
+  {
+    "id": "C008",
+    "name": "Synthetic Candidate 008",
+    "skills": [
+      "Bash",
+      "Kubernetes",
+      "OCI"
+    ],
+    "years_experience": 11,
+    "summary": "Synthetic candidate with 11 years of experience specializing in Bash, Kubernetes, OCI."
+  },
+  {
+    "id": "C009",
+    "name": "Synthetic Candidate 009",
+    "skills": [
+      "Ansible",
+      "Bash",
+      "CI/CD",
+      "Git",
+      "Linux"
+    ],
+    "years_experience": 5,
+    "summary": "Synthetic candidate with 5 years of experience specializing in Ansible, Bash, CI/CD, Git, Linux."
+  },
+  {
+    "id": "C010",
+    "name": "Synthetic Candidate 010",
+    "skills": [
+      "CI/CD",
+      "GitHub Actions",
+      "OCI"
+    ],
+    "years_experience": 5,
+    "summary": "Synthetic candidate with 5 years of experience specializing in CI/CD, GitHub Actions, OCI."
+  },
+  {
+    "id": "C011",
+    "name": "Synthetic Candidate 011",
+    "skills": [
+      "CI/CD",
+      "FastAPI",
+      "Linux",
+      "Networking",
+      "Redis",
+      "Terraform"
+    ],
+    "years_experience": 5,
+    "summary": "Synthetic candidate with 5 years of experience specializing in CI/CD, FastAPI, Linux, Networking, Redis, Terraform."
+  },
+  {
+    "id": "C012",
+    "name": "Synthetic Candidate 012",
+    "skills": [
+      "FastAPI",
+      "GitHub Actions",
+      "Terraform"
+    ],
+    "years_experience": 8,
+    "summary": "Synthetic candidate with 8 years of experience specializing in FastAPI, GitHub Actions, Terraform."
+  },
+  {
+    "id": "C013",
+    "name": "Synthetic Candidate 013",
+    "skills": [
+      "GitHub Actions",
+      "Grafana",
+      "Linux",
+      "OCI",
+      "PostgreSQL",
+      "Prometheus"
+    ],
+    "years_experience": 1,
+    "summary": "Synthetic candidate with 1 years of experience specializing in GitHub Actions, Grafana, Linux, OCI, PostgreSQL, Prometheus."
+  },
+  {
+    "id": "C014",
+    "name": "Synthetic Candidate 014",
+    "skills": [
+      "Ansible",
+      "Docker",
+      "Linux",
+      "OCI"
+    ],
+    "years_experience": 2,
+    "summary": "Synthetic candidate with 2 years of experience specializing in Ansible, Docker, Linux, OCI."
+  },
+  {
+    "id": "C015",
+    "name": "Synthetic Candidate 015",
+    "skills": [
+      "Git",
+      "Linux",
+      "Python",
+      "Redis"
+    ],
+    "years_experience": 11,
+    "summary": "Synthetic candidate with 11 years of experience specializing in Git, Linux, Python, Redis."
+  },
+  {
+    "id": "C016",
+    "name": "Synthetic Candidate 016",
+    "skills": [
+      "CI/CD",
+      "Docker",
+      "Grafana",
+      "Networking",
+      "Redis",
+      "Terraform"
+    ],
+    "years_experience": 9,
+    "summary": "Synthetic candidate with 9 years of experience specializing in CI/CD, Docker, Grafana, Networking, Redis, Terraform."
+  },
+  {
+    "id": "C017",
+    "name": "Synthetic Candidate 017",
+    "skills": [
+      "Bash",
+      "CI/CD",
+      "Networking",
+      "OCI",
+      "PostgreSQL"
+    ],
+    "years_experience": 9,
+    "summary": "Synthetic candidate with 9 years of experience specializing in Bash, CI/CD, Networking, OCI, PostgreSQL."
+  },
+  {
+    "id": "C018",
+    "name": "Synthetic Candidate 018",
+    "skills": [
+      "Ansible",
+      "Bash",
+      "CI/CD",
+      "Linux",
+      "Prometheus",
+      "Terraform"
+    ],
+    "years_experience": 11,
+    "summary": "Synthetic candidate with 11 years of experience specializing in Ansible, Bash, CI/CD, Linux, Prometheus, Terraform."
+  },
+  {
+    "id": "C019",
+    "name": "Synthetic Candidate 019",
+    "skills": [
+      "Bash",
+      "GitHub Actions",
+      "Grafana",
+      "Kubernetes",
+      "OCI",
+      "Redis"
+    ],
+    "years_experience": 5,
+    "summary": "Synthetic candidate with 5 years of experience specializing in Bash, GitHub Actions, Grafana, Kubernetes, OCI, Redis."
+  },
+  {
+    "id": "C020",
+    "name": "Synthetic Candidate 020",
+    "skills": [
+      "CI/CD",
+      "Grafana",
+      "Linux"
+    ],
+    "years_experience": 2,
+    "summary": "Synthetic candidate with 2 years of experience specializing in CI/CD, Grafana, Linux."
+  },
+  {
+    "id": "C021",
+    "name": "Synthetic Candidate 021",
+    "skills": [
+      "AWS",
+      "FastAPI",
+      "Networking",
+      "PostgreSQL",
+      "Prometheus"
+    ],
+    "years_experience": 12,
+    "summary": "Synthetic candidate with 12 years of experience specializing in AWS, FastAPI, Networking, PostgreSQL, Prometheus."
+  },
+  {
+    "id": "C022",
+    "name": "Synthetic Candidate 022",
+    "skills": [
+      "CI/CD",
+      "FastAPI",
+      "Linux",
+      "PostgreSQL",
+      "Redis"
+    ],
+    "years_experience": 5,
+    "summary": "Synthetic candidate with 5 years of experience specializing in CI/CD, FastAPI, Linux, PostgreSQL, Redis."
+  },
+  {
+    "id": "C023",
+    "name": "Synthetic Candidate 023",
+    "skills": [
+      "Docker",
+      "FastAPI",
+      "Grafana",
+      "Networking"
+    ],
+    "years_experience": 9,
+    "summary": "Synthetic candidate with 9 years of experience specializing in Docker, FastAPI, Grafana, Networking."
+  },
+  {
+    "id": "C024",
+    "name": "Synthetic Candidate 024",
+    "skills": [
+      "AWS",
+      "Linux",
+      "Python"
+    ],
+    "years_experience": 2,
+    "summary": "Synthetic candidate with 2 years of experience specializing in AWS, Linux, Python."
+  },
+  {
+    "id": "C025",
+    "name": "Synthetic Candidate 025",
+    "skills": [
+      "Ansible",
+      "CI/CD",
+      "GitHub Actions",
+      "Kubernetes",
+      "Terraform"
+    ],
+    "years_experience": 2,
+    "summary": "Synthetic candidate with 2 years of experience specializing in Ansible, CI/CD, GitHub Actions, Kubernetes, Terraform."
+  },
+  {
+    "id": "C026",
+    "name": "Synthetic Candidate 026",
+    "skills": [
+      "Bash",
+      "Docker",
+      "Python"
+    ],
+    "years_experience": 3,
+    "summary": "Synthetic candidate with 3 years of experience specializing in Bash, Docker, Python."
+  },
+  {
+    "id": "C027",
+    "name": "Synthetic Candidate 027",
+    "skills": [
+      "FastAPI",
+      "Grafana",
+      "Kubernetes",
+      "PostgreSQL",
+      "Python",
+      "Terraform"
+    ],
+    "years_experience": 7,
+    "summary": "Synthetic candidate with 7 years of experience specializing in FastAPI, Grafana, Kubernetes, PostgreSQL, Python, Terraform."
+  },
+  {
+    "id": "C028",
+    "name": "Synthetic Candidate 028",
+    "skills": [
+      "Git",
+      "Kubernetes",
+      "Redis",
+      "Terraform"
+    ],
+    "years_experience": 11,
+    "summary": "Synthetic candidate with 11 years of experience specializing in Git, Kubernetes, Redis, Terraform."
+  },
+  {
+    "id": "C029",
+    "name": "Synthetic Candidate 029",
+    "skills": [
+      "Ansible",
+      "CI/CD",
+      "Prometheus",
+      "Redis",
+      "Terraform"
+    ],
+    "years_experience": 4,
+    "summary": "Synthetic candidate with 4 years of experience specializing in Ansible, CI/CD, Prometheus, Redis, Terraform."
+  },
+  {
+    "id": "C030",
+    "name": "Synthetic Candidate 030",
+    "skills": [
+      "AWS",
+      "GitHub Actions",
+      "Linux"
+    ],
+    "years_experience": 10,
+    "summary": "Synthetic candidate with 10 years of experience specializing in AWS, GitHub Actions, Linux."
+  },
+  {
+    "id": "C031",
+    "name": "Synthetic Candidate 031",
+    "skills": [
+      "AWS",
+      "Ansible",
+      "Bash",
+      "CI/CD"
+    ],
+    "years_experience": 2,
+    "summary": "Synthetic candidate with 2 years of experience specializing in AWS, Ansible, Bash, CI/CD."
+  },
+  {
+    "id": "C032",
+    "name": "Synthetic Candidate 032",
+    "skills": [
+      "Bash",
+      "GitHub Actions",
+      "Linux"
+    ],
+    "years_experience": 5,
+    "summary": "Synthetic candidate with 5 years of experience specializing in Bash, GitHub Actions, Linux."
+  },
+  {
+    "id": "C033",
+    "name": "Synthetic Candidate 033",
+    "skills": [
+      "CI/CD",
+      "Docker",
+      "Git",
+      "GitHub Actions",
+      "OCI",
+      "Python"
+    ],
+    "years_experience": 7,
+    "summary": "Synthetic candidate with 7 years of experience specializing in CI/CD, Docker, Git, GitHub Actions, OCI, Python."
+  },
+  {
+    "id": "C034",
+    "name": "Synthetic Candidate 034",
+    "skills": [
+      "CI/CD",
+      "FastAPI",
+      "PostgreSQL",
+      "Terraform"
+    ],
+    "years_experience": 7,
+    "summary": "Synthetic candidate with 7 years of experience specializing in CI/CD, FastAPI, PostgreSQL, Terraform."
+  },
+  {
+    "id": "C035",
+    "name": "Synthetic Candidate 035",
+    "skills": [
+      "AWS",
+      "Ansible",
+      "CI/CD",
+      "Git",
+      "Networking",
+      "Prometheus"
+    ],
+    "years_experience": 6,
+    "summary": "Synthetic candidate with 6 years of experience specializing in AWS, Ansible, CI/CD, Git, Networking, Prometheus."
+  },
+  {
+    "id": "C036",
+    "name": "Synthetic Candidate 036",
+    "skills": [
+      "Git",
+      "GitHub Actions",
+      "Redis"
+    ],
+    "years_experience": 9,
+    "summary": "Synthetic candidate with 9 years of experience specializing in Git, GitHub Actions, Redis."
+  },
+  {
+    "id": "C037",
+    "name": "Synthetic Candidate 037",
+    "skills": [
+      "CI/CD",
+      "Docker",
+      "FastAPI",
+      "GitHub Actions",
+      "PostgreSQL",
+      "Terraform"
+    ],
+    "years_experience": 2,
+    "summary": "Synthetic candidate with 2 years of experience specializing in CI/CD, Docker, FastAPI, GitHub Actions, PostgreSQL, Terraform."
+  },
+  {
+    "id": "C038",
+    "name": "Synthetic Candidate 038",
+    "skills": [
+      "AWS",
+      "Ansible",
+      "CI/CD",
+      "Grafana",
+      "Linux",
+      "Terraform"
+    ],
+    "years_experience": 2,
+    "summary": "Synthetic candidate with 2 years of experience specializing in AWS, Ansible, CI/CD, Grafana, Linux, Terraform."
+  },
+  {
+    "id": "C039",
+    "name": "Synthetic Candidate 039",
+    "skills": [
+      "FastAPI",
+      "GitHub Actions",
+      "PostgreSQL",
+      "Python"
+    ],
+    "years_experience": 4,
+    "summary": "Synthetic candidate with 4 years of experience specializing in FastAPI, GitHub Actions, PostgreSQL, Python."
+  },
+  {
+    "id": "C040",
+    "name": "Synthetic Candidate 040",
+    "skills": [
+      "AWS",
+      "Ansible",
+      "Docker",
+      "FastAPI",
+      "Git",
+      "OCI"
+    ],
+    "years_experience": 8,
+    "summary": "Synthetic candidate with 8 years of experience specializing in AWS, Ansible, Docker, FastAPI, Git, OCI."
+  },
+  {
+    "id": "C041",
+    "name": "Synthetic Candidate 041",
+    "skills": [
+      "CI/CD",
+      "Docker",
+      "PostgreSQL",
+      "Python",
+      "Redis"
+    ],
+    "years_experience": 4,
+    "summary": "Synthetic candidate with 4 years of experience specializing in CI/CD, Docker, PostgreSQL, Python, Redis."
+  },
+  {
+    "id": "C042",
+    "name": "Synthetic Candidate 042",
+    "skills": [
+      "Ansible",
+      "Linux",
+      "Terraform"
+    ],
+    "years_experience": 1,
+    "summary": "Synthetic candidate with 1 years of experience specializing in Ansible, Linux, Terraform."
+  },
+  {
+    "id": "C043",
+    "name": "Synthetic Candidate 043",
+    "skills": [
+      "FastAPI",
+      "Python",
+      "Redis"
+    ],
+    "years_experience": 1,
+    "summary": "Synthetic candidate with 1 years of experience specializing in FastAPI, Python, Redis."
+  },
+  {
+    "id": "C044",
+    "name": "Synthetic Candidate 044",
+    "skills": [
+      "Bash",
+      "FastAPI",
+      "Redis"
+    ],
+    "years_experience": 11,
+    "summary": "Synthetic candidate with 11 years of experience specializing in Bash, FastAPI, Redis."
+  },
+  {
+    "id": "C045",
+    "name": "Synthetic Candidate 045",
+    "skills": [
+      "CI/CD",
+      "GitHub Actions",
+      "Kubernetes",
+      "OCI"
+    ],
+    "years_experience": 10,
+    "summary": "Synthetic candidate with 10 years of experience specializing in CI/CD, GitHub Actions, Kubernetes, OCI."
+  },
+  {
+    "id": "C046",
+    "name": "Synthetic Candidate 046",
+    "skills": [
+      "Bash",
+      "Linux",
+      "PostgreSQL"
+    ],
+    "years_experience": 5,
+    "summary": "Synthetic candidate with 5 years of experience specializing in Bash, Linux, PostgreSQL."
+  },
+  {
+    "id": "C047",
+    "name": "Synthetic Candidate 047",
+    "skills": [
+      "Git",
+      "GitHub Actions",
+      "Grafana",
+      "Linux"
+    ],
+    "years_experience": 3,
+    "summary": "Synthetic candidate with 3 years of experience specializing in Git, GitHub Actions, Grafana, Linux."
+  },
+  {
+    "id": "C048",
+    "name": "Synthetic Candidate 048",
+    "skills": [
+      "AWS",
+      "Bash",
+      "GitHub Actions",
+      "Linux",
+      "Prometheus"
+    ],
+    "years_experience": 10,
+    "summary": "Synthetic candidate with 10 years of experience specializing in AWS, Bash, GitHub Actions, Linux, Prometheus."
+  },
+  {
+    "id": "C049",
+    "name": "Synthetic Candidate 049",
+    "skills": [
+      "Bash",
+      "Git",
+      "Grafana"
+    ],
+    "years_experience": 3,
+    "summary": "Synthetic candidate with 3 years of experience specializing in Bash, Git, Grafana."
+  },
+  {
+    "id": "C050",
+    "name": "Synthetic Candidate 050",
+    "skills": [
+      "Bash",
+      "Docker",
+      "GitHub Actions",
+      "Networking",
+      "Terraform"
+    ],
+    "years_experience": 8,
+    "summary": "Synthetic candidate with 8 years of experience specializing in Bash, Docker, GitHub Actions, Networking, Terraform."
+  }
+]
