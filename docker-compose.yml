@@ -1,0 +1,15 @@
+services:
+  api:
+    build:
+      context: ./app
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - REDIS_HOST=${REDIS_HOST:-redis}
+    depends_on:
+      - redis
+
+  redis:
+    image: redis:7-alpine
+    restart: unless-stopped
