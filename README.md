@@ -1,6 +1,8 @@
 # Mini Sourcing Engine on OCI
 
-A deliberately thin candidate-ranking app run like a production system on Oracle Cloud Infrastructure (OCI) to demonstrate Cloud Operations Engineer capabilities.
+A deliberately thin candidate-ranking app designed to run like a production system on Oracle Cloud Infrastructure (OCI) to demonstrate Cloud Operations Engineer capabilities.
+
+Status: runs locally with Docker Compose. OCI infrastructure and deployment are in progress (Phase 3 next).
 
 The core deliverable of this project is the **operations layer** surrounding the workload: Infrastructure as Code (Terraform), container orchestration (Docker Compose), CI/CD (GitHub Actions), observability (Prometheus & Grafana), security (least-privilege IAM, Vault secrets), backup/restore, and incident management with a documented postmortem.
 
@@ -108,7 +110,7 @@ oci-sourcing-engine/
 
 | Phase | Description | Status |
 |---|---|---|
-| **1. Setup** | OCI account, budget alert, repository setup, OCI CLI | Not Started |
+| **1. Setup** | OCI account, budget alert, repository setup, OCI CLI | **Complete** |
 | **2. Stub app** | FastAPI service, Redis queue, worker, synthetic resumes, containerization | **Complete** |
 | **3. Infrastructure** | Terraform for VCN, subnets, VM, Object Storage, Vault | Not Started |
 | **4. Deployment** | GitHub Actions CI/CD pipeline and deployment with rollback | Not Started |
