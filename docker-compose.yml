@@ -10,6 +10,17 @@ services:
     depends_on:
       - redis
 
+  worker:
+    build:
+      context: ./app
+      dockerfile: Dockerfile
+    command: python worker.py
+    environment:
+      - REDIS_HOST=${REDIS_HOST:-redis}
+    depends_on:
+      - redis
+    restart: unless-stopped
+
   redis:
     image: redis:7-alpine
     restart: unless-stopped
