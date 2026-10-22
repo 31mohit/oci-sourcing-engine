@@ -26,3 +26,17 @@ variable "owner" {
   type        = string
   default     = "mohit"
 }
+
+variable "allowed_cidr" {
+  description = "CIDR block permitted to access the application and SSH (must be /24 to /32, not 0.0.0.0/0)"
+  type        = string
+
+  validation {
+    condition = (
+      can(cidrhost(var.allowed_cidr, 0)) &&
+      var.allowed_cidr != "0.0.0.0/0" &&
+      try(tonumber(split("/", var.allowed_cidr)[1]) >= 24, false)
+    )
+    error_message = "The allowed_cidr value must be a valid IPv4 CIDR block with a prefix length between /24 and /32, and cannot be 0.0.0.0/0."
+  }
+}

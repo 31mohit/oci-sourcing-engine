@@ -22,3 +22,18 @@ output "compartment_name" {
   description = "The name of the project compartment"
   value       = oci_identity_compartment.project.name
 }
+
+output "vcn_id" {
+  description = "The OCID of the main VCN"
+  value       = oci_core_vcn.main.id
+}
+
+output "public_subnet_id" {
+  description = "The OCID of the public subnet"
+  value       = oci_core_subnet.public.id
+}
+
+output "app_nsg_id" {
+  description = "The OCID of the application network security group"
+  value       = oci_core_network_security_group.app.id
+}

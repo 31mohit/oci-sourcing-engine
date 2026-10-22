@@ -1,5 +1,6 @@
 # Example Terraform variables
-# Copy this file to terraform.tfvars and populate with your actual tenancy OCID.
+# Copy this file to terraform.tfvars and populate with your actual values.
 # Note: terraform.tfvars contains sensitive values and is gitignored.
 
 tenancy_ocid = "ocid1.tenancy.oc1..exampleuniqueID"
+allowed_cidr = "203.0.113.10/32"
