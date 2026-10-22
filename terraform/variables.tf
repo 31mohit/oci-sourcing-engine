@@ -8,3 +8,21 @@ variable "region" {
   type        = string
   default     = "ap-mumbai-1"
 }
+
+variable "project_name" {
+  description = "The project name used for resource naming and tagging"
+  type        = string
+  default     = "sourcing-engine"
+}
+
+variable "environment" {
+  description = "The deployment environment"
+  type        = string
+  default     = "dev"
+}
+
+variable "owner" {
+  description = "The owner of the project"
+  type        = string
+  default     = "mohit"
+}

@@ -12,3 +12,13 @@ output "availability_domain_names" {
   description = "List of availability domain names in the tenancy"
   value       = data.oci_identity_availability_domains.this.availability_domains[*].name
 }
+
+output "compartment_id" {
+  description = "The OCID of the project compartment"
+  value       = oci_identity_compartment.project.id
+}
+
+output "compartment_name" {
+  description = "The name of the project compartment"
+  value       = oci_identity_compartment.project.name
+}
