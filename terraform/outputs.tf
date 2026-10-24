@@ -52,3 +52,14 @@ output "ssh_command" {
   description = "SSH connection command for the instance"
   value       = "ssh -i $HOME\\.ssh\\oci_sourcing ubuntu@${oci_core_instance.app.public_ip}"
 }
+
+output "object_storage_namespace" {
+  description = "The Object Storage namespace for the tenancy"
+  value       = data.oci_objectstorage_namespace.this.namespace
+}
+
+output "backups_bucket_name" {
+  description = "The name of the backups Object Storage bucket"
+  value       = oci_objectstorage_bucket.backups.name
+}
+
