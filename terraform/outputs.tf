@@ -63,3 +63,19 @@ output "backups_bucket_name" {
   value       = oci_objectstorage_bucket.backups.name
 }
 
+output "vault_id" {
+  description = "The OCID of the OCI KMS vault"
+  value       = oci_kms_vault.main.id
+}
+
+output "secrets_key_id" {
+  description = "The OCID of the master encryption key for secrets"
+  value       = oci_kms_key.secrets.id
+}
+
+output "placeholder_secret_id" {
+  description = "The OCID of the placeholder redis-password secret"
+  value       = oci_vault_secret.placeholder.id
+}
+
+
