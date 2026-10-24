@@ -78,4 +78,15 @@ output "placeholder_secret_id" {
   value       = oci_vault_secret.placeholder.id
 }
 
+output "dynamic_group_name" {
+  description = "The name of the IAM dynamic group for the compute VM"
+  value       = oci_identity_dynamic_group.vm.name
+}
+
+output "vm_access_policy_id" {
+  description = "The OCID of the IAM policy granting VM access"
+  value       = oci_identity_policy.vm_access.id
+}
+
+
 
