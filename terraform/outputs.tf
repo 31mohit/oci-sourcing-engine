@@ -37,3 +37,18 @@ output "app_nsg_id" {
   description = "The OCID of the application network security group"
   value       = oci_core_network_security_group.app.id
 }
+
+output "instance_id" {
+  description = "The OCID of the compute instance"
+  value       = oci_core_instance.app.id
+}
+
+output "instance_public_ip" {
+  description = "The public IP address of the compute instance"
+  value       = oci_core_instance.app.public_ip
+}
+
+output "ssh_command" {
+  description = "SSH connection command for the instance"
+  value       = "ssh -i $HOME\\.ssh\\oci_sourcing ubuntu@${oci_core_instance.app.public_ip}"
+}

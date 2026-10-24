@@ -40,3 +40,31 @@ variable "allowed_cidr" {
     error_message = "The allowed_cidr value must be a valid IPv4 CIDR block with a prefix length between /24 and /32, and cannot be 0.0.0.0/0."
   }
 }
+
+variable "ssh_public_key" {
+  description = "Public SSH key for the instance"
+  type        = string
+
+  validation {
+    condition     = startswith(var.ssh_public_key, "ssh-")
+    error_message = "The ssh_public_key value must start with 'ssh-' (e.g. 'ssh-ed25519' or 'ssh-rsa')."
+  }
+}
+
+variable "instance_ocpus" {
+  description = "Number of OCPUs for the VM.Standard.A1.Flex instance"
+  type        = number
+  default     = 2
+}
+
+variable "instance_memory_gb" {
+  description = "Memory in GB for the VM.Standard.A1.Flex instance"
+  type        = number
+  default     = 12
+}
+
+variable "fault_domain" {
+  description = "The fault domain for instance placement (null lets OCI choose)"
+  type        = string
+  default     = null
+}

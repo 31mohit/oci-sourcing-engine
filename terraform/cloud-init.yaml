@@ -1,0 +1,49 @@
+#cloud-config
+package_update: true
+package_upgrade: true
+
+packages:
+  - ca-certificates
+  - curl
+  - gnupg
+  - iptables-persistent
+  - netfilter-persistent
+
+runcmd:
+  # 1. Configure host firewall (iptables) to allow TCP port 8000 while keeping port 22 open
+  # Ubuntu images on OCI include default iptables rules ending with a REJECT rule.
+  # We find the line number of the REJECT rule and insert our TCP 8000 allow rule before it,
+  # then persist the configuration using netfilter-persistent.
+  # This runs before Docker installs so netfilter-persistent saves only base rules, not Docker chains.
+  - |
+    REJECT_LINE=$(iptables -L INPUT --line-numbers -n | grep -E "REJECT" | awk '{print $1}' | head -n 1)
+    if [ -n "$REJECT_LINE" ]; then
+      iptables -I INPUT "$REJECT_LINE" -p tcp --dport 8000 -m state --state NEW,ESTABLISHED -j ACCEPT
+    else
+      iptables -A INPUT -p tcp --dport 8000 -m state --state NEW,ESTABLISHED -j ACCEPT
+    fi
+    netfilter-persistent save || iptables-save > /etc/iptables/rules.v4
+
+  # 2. Add Docker's official GPG key and apt repository for arm64
+  - install -m 0755 -d /etc/apt/keyrings
+  - curl -fsSL https://download.docker.com/linux/ubuntu/gpg -o /etc/apt/keyrings/docker.asc
+  - chmod a+r /etc/apt/keyrings/docker.asc
+  - |
+    echo \
+      "deb [arch=arm64 signed-by=/etc/apt/keyrings/docker.asc] https://download.docker.com/linux/ubuntu \
+      $(. /etc/os-release && echo "$VERSION_CODENAME") stable" | \
+      tee /etc/apt/sources.list.d/docker.list > /dev/null
+  - apt-get update
+
+  # 3. Install Docker Engine and the Compose plugin
+  - apt-get install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+
+  # 4. Enable and start Docker service
+  - systemctl enable --now docker
+
+  # 5. Add the ubuntu user to the docker group
+  - usermod -aG docker ubuntu
+
+  # 6. Create application directory owned by ubuntu
+  - mkdir -p /opt/sourcing-engine
+  - chown -R ubuntu:ubuntu /opt/sourcing-engine
